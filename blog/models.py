@@ -10,7 +10,6 @@ class Post(models.Model):
             default=timezone.now)
     published_date = models.DateTimeField(
             blank=True, null=True)
-    birthday_date = models.DateTimeField()
 
 
     def publish(self):
